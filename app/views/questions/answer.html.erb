@@ -3,5 +3,9 @@
 <%= params[:answer] %>
 <p>-You</p>
 
-<%= @answer %>
-<p>-Coach</p>
+<div>
+  <%= @answer %>
+  <p>-Coach</p>
+</div>
+
+<%= link_to 'Ask another question', ask_path %>
